@@ -19,3 +19,12 @@ This repository contains a Python script that tests the connectivity between an 
    ```sh
    git clone https://github.com/yourusername/aws-connectivity-test.git
    cd aws-connectivity-test
+
+## Run the apps
+1. Install the requirements 
+```sudo apt-get install libpq-dev - Ubuntu
+   sudo yum install postgresql-devel - Centos
+   pip install boto3 psycopg2-binary flask
+
+2. Run the application :
+```python3 test_connection.py
